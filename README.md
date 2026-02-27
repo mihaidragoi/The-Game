@@ -1,6 +1,7 @@
 The Game
 A multiplayer card game based on a Client-Server architecture, developed in C++.
 
+
 🚀 Main Features
 Client-Server Architecture: Efficient network communication with a clear separation between server logic and user interface.
 
@@ -12,6 +13,8 @@ Security & Accounts: Protected authentication with OpenSSL (password hashing), i
 
 Lobby System: Organized into sessions (GameSession) and waiting rooms (GameLobby).
 
+
+
 📁 Project Structure
 The code is divided into functional modules:
 
@@ -22,6 +25,8 @@ Server Logic (Server.cpp, RouteHandler, DBManager): Handles user data and incomi
 Core Game (GameLogic, Card, Deck, Player): The actual rules and mechanics of the card game.
 
 Security (SecurityEngine, PasswordService): Encrypts sensitive data.
+
+
 
 🛠️ Required Dependencies
 To compile and run this project, you will need:
